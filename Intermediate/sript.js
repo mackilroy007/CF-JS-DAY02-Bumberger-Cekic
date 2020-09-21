@@ -63,13 +63,13 @@ for (i = 1; i <= 100; i++) {
 
 var star = "";  //emptly star var
 
-for (var i = 0; i <= 5; i++) {
+for (var i = 0; i <= 5; i++) { //for i 0 to i 5 add * and break
   star += "*";
   document.write(star + "<br>");
 }
 
 //or
-var star2 = "";
+var star2 = ""; //as long as star2 length is smaller then 6, add a * and then br line
 do {
   star2 += "*";
   document.write(star2 + "<br>");
