@@ -18,4 +18,19 @@ var largestNumber = Arr[0]; //takes first index 0 value and compare them with th
       largestNumber = Arr[i]; //make largestNumber equal the value of the given index
       }
 }
-console.log(largestNumber); //print out the largest end value 
+//console.log(largestNumber); //print out the largest end value 
+
+//exercise 3
+var Number = Math.floor(Math.random() * 36) - 10; //defines a random number between -10 and 30
+console.log(Number);
+var hot= 'The weather is hot';
+var med= 'The weather is moderate';
+var cold= 'The weather is cold';
+
+if (Number > 20) { //displays image through javascript with inline css code. Text has been modified in the external css file under body (technically cheating)
+  document.write('<img src="img/desert-1654439_640.jpg" alt="desert" style="height: 10em; width: auto;">'+'<br>'+ hot)
+} else if (Number > 15 && Number > 0){
+  document.write('<img src="img/field-533541_640.jpg" alt="desert" style="height: 10em; width: auto;">'+'<br>'+ med);
+} else {
+  document.write('<img src="img/iceberg-404966_640.jpg" alt="desert" style="height: 10em; width: auto;">'+'<br>'+ cold);
+}
